@@ -1,0 +1,23 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "typescript sorting",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "npx tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "author": "Heather Mathies",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "save-dev": "0.0.1-security",
+    "typescript": "^3.9.5"
+  }
+}
