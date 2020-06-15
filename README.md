@@ -1,4 +1,4 @@
-# Goal of the application to create ONE algorithm that sorts multiple types of data. We have to customize the comparison of two elements and the swapping logic.WE are making a class (Sorter.ts) as generic as possible
+### Goal of the application to create ONE algorithm that sorts multiple types of data. We have to customize the comparison of two elements and the swapping logic.WE are making a class (Sorter.ts) as generic as possible
 
 run `npx tsc index.ts` to run simple tsc files from terminal. `tsc index.ts` doesn't work for me - must prefix with npx.
 
@@ -33,7 +33,7 @@ This project is using Bubble Sort which is not a recommended sorting algorithm. 
 
 ---
 
-#The Problem with applying one sorting function that can work with arrays and string is because there are fundamental differences between arrays and string.
+### The Problem with applying one sorting function that can work with arrays and string is because there are fundamental differences between arrays and string.
 
 For example:
 
@@ -49,7 +49,8 @@ For example:
 
 So an algorithm which compares an array of numbers and then swaps, can not be done with strings.
 
-#Reminder about Union Types (or operator)
+### Reminder about Union Types (or operator)
+
 `constructor(public collection: number[] | string) {}`
 Typescript will only allow properties and methods which both contain. You will only be able to access to the properties that are common to both(all) of them.
 
